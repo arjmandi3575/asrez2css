@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     font-family: 'iranyekan' , 'iranyekan_numbers';
     padding: 0;
@@ -17,80 +17,83 @@
     url("fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
     url("fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
 }
-.all{
-    /* background-color: #a9a9a961; */
- height: auto;   
-  background: #334d50; /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #334d50, #cbcaa5); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #334d50, #cbcaa5);
+.all {
+    height: auto;   
+    background: #334d50; 
+    background: -webkit-linear-gradient(to right, #334d50, #cbcaa5); 
+    background: linear-gradient(to right, #334d50, #cbcaa5);
 }
-.top{
+.top {
     text-align: center;
     background-color: #f5f5f5;
     width: 100%;
-    height: 245px;
+    height: 300px;
 }
-.top img{
+.top img {
+    margin-top: 2rem;
     width: 4rem;
     height: 4rem;
 } 
-.top header{
-   
+.top header {   
     font-size: 2.5rem;
-direction: rtl;
-}
-.top .first-line{
     direction: rtl;
-  
+}
+.top .first-line {
+    direction: rtl;
     font-size: 0.85rem;
 }
-.top button{
-  
+.top a {
     margin-top: 2rem;
+    font-size: 1rem;
     color: white;
     background-color: darkblue;
-    width: 3rem;
-    height: 2rem;
     border-radius: 0.4rem;
     border-color: darkblue;
 }
-.bottom{
+.exit {
+    margin-top: 2rem;
+    margin-left: 11rem;
+}
+.archive{
+    margin-right: 8rem;
+    margin-top: -1.3rem;
+}
+.bottom {
     direction: rtl;
     margin: 2rem 8rem;
-
 }
-.bottom header{
+.bottom header {
 font-size: 1.3rem;
-
 }
 .bottom p {
     width: 98%;
     background-color: #8080806b;
-border-radius: 0.2rem;
-padding: 0.2rem;
-color:  rgb(221, 253, 0);
-text-align: center;
-padding-right: 0.5rem;
+    border-radius: 0.2rem;
+    padding: 0.2rem;
+    color:  rgb(221, 253, 0);
+    text-align: center;
+    padding-right: 0.5rem;
 }
-form{
+form {
     background-color: white;
     margin-bottom: 1rem;
     margin-top: 0.5rem ;
     border-radius: 0.2rem;
-    height:31rem;
+    height: 31rem;
 }
-form input{
+form input {
+    padding-right: 1rem;
     height: 2rem;
     border-radius: 00.3rem;
-    width: 98%;
+    width: 96%;
     margin-top: 0.5rem ;
     margin-right: 0.3rem;
- border-color: #8080806b;   
+    border-color: #8080806b;   
 }
-label{
+label {
     margin-right: 1rem !important;
 }
-a{
+a {
     color: black;
     background-color: rgb(221, 253, 0);
     border-radius: 0.5rem;
@@ -101,62 +104,62 @@ a{
     padding-bottom: 0.3rem;
     font-size: 1.5rem;
 }
-textarea{
+textarea {
+    padding-right: 1rem;
     border-radius: 00.3rem;
     margin-top: 0.5rem ;
     margin-right: 0.3rem;
-    width: 98%;
- border-color: #8080806b; 
+    width: 96%;
+    border-color: #8080806b; 
 }
- form .save{
+form .save {
     height: 2rem;
     border-radius: 00.3rem;
     width: 98%;
     margin-top: 0.5rem ;
     margin-right: 0.3rem;
- border-color: #8080806b; 
- background-color: darkblue;
- color: white;
+    border-color: #8080806b; 
+    background-color: darkblue;
+    color: white;
 }
-.secound-form{
+.secound-form {
     height: 14rem;
 }
-.secound-form div{
+.secound-form div {
     padding: 0.5rem 0.4rem;
     font-size: 1.3rem;
 }
-.change-password{
+.change-password {
     height: 2rem;
     border-radius: 00.3rem;
     width: 98%;
-    margin-top: 0.5rem ;
+    margin-top: 0.5rem;
     margin-right: 0.3rem;
- border-color: #8080806b; 
- background-color: darkblue;
- color: white;
+    border-color: #8080806b; 
+    background-color: darkblue;
+    color: white;
 }
-@media(max-width:850px){
-   
-    .top button{
+
+@media(max-width: 850px) {
+    .exit.archive {
         margin-top: 1rem;
     }
-    .bottom{
+    .archive {
+        margin-left: -3.5rem;
+    }
+    .bottom {
         margin: 2rem 3rem;
-    
     }
     .bottom p {
         width: 96%;
     }
-    form input{
-      
+    form input {
         width: 95%;
     }
-   
-    a{
-        
+    a {  
      margin-left: 8rem;
-
     }
-    textarea{
+    textarea {
         width: 95%; 
     }
+}
