@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    font-family: 'iranyekan' , 'iranyekan_numbers';
+    padding: 0;
+}
+@font-face {
+    font-family: "iranyekan" ;
+    src: url("fonts/iranyekan/eot/iranyekanwebregular.eot?#") ,
+    url("fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'),
+    url("fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff'),
+    url("fonts/iranyekan/svg/iranyekanwebregular.svg") format('svg');
+}
+@font-face {
+    font-family: "iranyekan_numbers" ;
+    src: url("fonts/iranyekan_numbers/eot/iranyekanwebregular(fanum).eot?#") ,
+    url("fonts/iranyekan_numbers/ttf/iranyekanwebregular(fanum).ttf") format('truetype'),
+    url("fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
+    url("fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
+}
+.all{
+    /* background-color: #a9a9a961; */
+ height: auto;   
+  background: #334d50; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #334d50, #cbcaa5); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #334d50, #cbcaa5);
+}
+.top{
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 245px;
+}
+.top img{
+    width: 4rem;
+    height: 4rem;
+} 
+.top header{
+   
+    font-size: 2.5rem;
+direction: rtl;
+}
+.top .first-line{
+    direction: rtl;
+  
+    font-size: 0.85rem;
+}
+.top button{
+  
+    margin-top: 2rem;
+    color: white;
+    background-color: darkblue;
+    width: 3rem;
+    height: 2rem;
+    border-radius: 0.4rem;
+    border-color: darkblue;
+}
+.bottom{
+    direction: rtl;
+    margin: 2rem 8rem;
+
+}
+.bottom header{
+font-size: 1.3rem;
+
+}
+.bottom p {
+    width: 98%;
+    background-color: #8080806b;
+border-radius: 0.2rem;
+padding: 0.2rem;
+color:  rgb(221, 253, 0);
+text-align: center;
+padding-right: 0.5rem;
+}
+form{
+    background-color: white;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem ;
+    border-radius: 0.2rem;
+    height:31rem;
+}
+form input{
+    height: 2rem;
+    border-radius: 00.3rem;
+    width: 98%;
+    margin-top: 0.5rem ;
+    margin-right: 0.3rem;
+ border-color: #8080806b;   
+}
+label{
+    margin-right: 1rem !important;
+}
+a{
+    color: black;
+    background-color: rgb(221, 253, 0);
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: 2rem 33rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-bottom: 0.3rem;
+    font-size: 1.5rem;
+}
+textarea{
+    border-radius: 00.3rem;
+    margin-top: 0.5rem ;
+    margin-right: 0.3rem;
+    width: 98%;
+ border-color: #8080806b; 
+}
+ form .save{
+    height: 2rem;
+    border-radius: 00.3rem;
+    width: 98%;
+    margin-top: 0.5rem ;
+    margin-right: 0.3rem;
+ border-color: #8080806b; 
+ background-color: darkblue;
+ color: white;
+}
+.secound-form{
+    height: 14rem;
+}
+.secound-form div{
+    padding: 0.5rem 0.4rem;
+    font-size: 1.3rem;
+}
+.change-password{
+    height: 2rem;
+    border-radius: 00.3rem;
+    width: 98%;
+    margin-top: 0.5rem ;
+    margin-right: 0.3rem;
+ border-color: #8080806b; 
+ background-color: darkblue;
+ color: white;
+}
+@media(max-width:850px){
+   
+    .top button{
+        margin-top: 1rem;
+    }
+    .bottom{
+        margin: 2rem 3rem;
+    
+    }
+    .bottom p {
+        width: 96%;
+    }
+    form input{
+      
+        width: 95%;
+    }
+   
+    a{
+        
+     margin-left: 8rem;
+
+    }
+    textarea{
+        width: 95%; 
+    }
