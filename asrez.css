@@ -24,13 +24,12 @@ body{
 .all{
     width: 30%;
     height: 50%;
-    margin: auto;
-    background-color: darkgrey;
+    margin:4rem auto;
+   
 }
 .all .image img{
 margin-top: 1rem;
-margin-right: 10.5rem;
-margin-left: 11.49rem;
+margin-left: 10.85rem;
 width: 15%;
 height: 15%;
 }
@@ -42,7 +41,7 @@ header{
 }
 .first-line{
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.85rem;
     height: 15%;
     background-color: yellow;
     direction: rtl;
@@ -91,4 +90,86 @@ button{
 border-radius: 0.5rem;
 margin-top: 1.5rem;
 margin-left: 2.55rem;
+}
+p{width: 80%;
+    height: 15%;
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-left: 2.5rem;
+    font-size: 0.75rem;
+}
+
+@media(max-width:1200px){
+    .all{
+        width: 40%;
+    }
+    .all .image img{
+        margin-left: 12.5rem;
+       
+        }
+        .first-line{
+           margin-left: 2.5rem;
+        }
+
+        
+}
+@media(max-width:1100px){
+    .all .image img{
+        margin-left: 11.5rem;
+       
+        }
+}
+@media(max-width:1000px){
+    .all .image img{
+        margin-left: 10.5rem;
+       
+        }
+}
+@media(max-width:900px)
+{
+
+    .all .image img{
+    
+    margin-left: 9.85rem;
+    
+    }
+    
+    
+}
+@media(max-width:800px){
+    .all{
+        width: 50%;
+    }
+    .all .image img{
+    
+        margin-left: 10rem;
+        
+        }
+}
+@media(max-width:700px)
+{
+    .all .image img{
+    
+        margin-left: 9rem;
+        
+        }
+}
+@media(max-width:600px)
+{
+    .all .image img{
+    
+        margin-left: 5rem;
+        
+        }
+}
+@media(max-width:500px)
+{
+    .all .image img{
+    
+        margin-left: 7.5rem;
+        
+        }
+        header{
+            margin-left: 2rem;
+        }       
 }
