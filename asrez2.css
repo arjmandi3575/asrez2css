@@ -43,6 +43,7 @@
     font-size: 0.85rem;
 }
 .top a {
+    text-decoration: none;
     margin-top: 2rem;
     font-size: 1rem;
     color: white;
@@ -54,7 +55,7 @@
     margin-top: 2rem;
     margin-left: 11rem;
 }
-.archive{
+.archive {
     margin-right: 8rem;
     margin-top: -1.3rem;
 }
@@ -91,7 +92,7 @@ form input {
     border-color: #8080806b;   
 }
 label {
-    margin-right: 1rem !important;
+    margin-right: 2rem !important;
 }
 a {
     color: black;
@@ -139,7 +140,11 @@ form .save {
     background-color: darkblue;
     color: white;
 }
-
+footer {
+    text-align: center;
+    font-size: 1rem;
+    direction: rtl;
+}
 @media(max-width: 850px) {
     .exit.archive {
         margin-top: 1rem;
@@ -154,12 +159,12 @@ form .save {
         width: 96%;
     }
     form input {
-        width: 95%;
+        width: 92%;
     }
     a {  
      margin-left: 8rem;
     }
     textarea {
-        width: 95%; 
+        width: 92%; 
     }
 }

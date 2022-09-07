@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "iranyekan" ;
+    src: url("fonts/iranyekan/eot/iranyekanwebregular.eot?#") ,
+    url("fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'),
+    url("fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff'),
+    url("fonts/iranyekan/svg/iranyekanwebregular.svg") format('svg');
+}
+@font-face {
+    font-family: "iranyekan_numbers" ;
+    src: url("fonts/iranyekan_numbers/eot/iranyekanwebregular(fanum).eot?#") ,
+    url("fonts/iranyekan_numbers/ttf/iranyekanwebregular(fanum).ttf") format('truetype'),
+    url("fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
+    url("fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
+}
+* {
+margin: 0;
+padding: 0;
+}
+.all{
+    margin:2rem 12rem;
+}
+img {
+width: 60px;
+height: 60px;
+margin-left: 445px;
+}
+header{
+    margin-left: 411px;
+    
+    font-weight: boldee;
+    color: black;
+    border-radius: 5px;
+
+    font-size: 20px;
+    font-family: 'iranyekan' , 'iranyekan_numbers' ;
+}
+.first-line{
+    border-radius: 5px;
+ direction: rtl;
+    font-family: 'iranyekan' , 'iranyekan_numbers' ;
+    width: 305px;
+    height: 47px;
+    padding-top: 16px;
+margin-top: 11px;
+    text-align: center;
+    margin-left: 324px;
+    background-color: rgb(243,196,14)
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.code input{
+    width: 300px;
+margin-left: 327px;
+height: 40px;
+margin-top: 5px;
+text-align: center;
+border: darkblue 1px solid;
+color: black;
+font-family: 'iranyekan' , 'iranyekan_numbers' ;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.password input{
+    font-family: 'iranyekan' , 'iranyekan_numbers' ;
+    text-align: center;
+    width: 300px;
+    margin-left: 327px;
+color: black;
+    height: 40px;
+    border: darkblue 1px solid;
+    
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+button{
+    background-color: darkblue;
+    color: white;
+    width: 300px;
+    margin-left: 328px;
+    height: 40px;
+    margin-top: 5px;
+    font-family: 'iranyekan' , 'iranyekan_numbers' ;
+    border-radius: 6px;
+}
+/* input:hover{
+    background-color: turquoise;
+} */
+p{font-family: 'iranyekan' , 'iranyekan_numbers';
+    margin-left: 590px;   
+    font-weight: lighter;
+    font-size: 13px;
+}
+@media(max-width:400px){
+   *{
+    font-size: 10px;
+   }
+}
