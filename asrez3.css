@@ -57,15 +57,13 @@
     background-color: darkblue;
     border-color: darkblue;
 }
-.flex{
+.flex {
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
- div .exit {
-    
+div .exit {    
     margin-right: 3rem;
-
 }
 form header {
     direction: rtl;
@@ -127,20 +125,20 @@ p {
     margin: 3rem auto;
     text-align: center;
 }
-.type{
+.type {
     width: 16rem;
 }
-.Explain{
+.Explain {
     width: 15rem;
 }
-.attachment{
+.attachment {
     width: 33rem;
 }
-.Management{
+.Management {
     width: 14rem;
 }
- @media(max-width:1200px){
-   table{
+@media(max-width: 1200px) {
+    table {
     margin-right: 1rem;
    }
 }

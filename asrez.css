@@ -13,33 +13,33 @@
     url("fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
 }
 * {
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-font-family: 'iranyekan' , 'iranyekan_numbers' ;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'iranyekan' , 'iranyekan_numbers' ;
 }
-body{
+body {
     width: 100%;
 }
-.all{
+.all {
     width: 30%;
     height: 50%;
     margin:4rem auto;
    
 }
-.all .image img{
-margin-top: 1rem;
-margin-left: 10.85rem;
-width: 15%;
-height: 15%;
+.all .image img {
+    margin-top: 1rem;
+    margin-left: 10.85rem;
+    width: 15%;
+    height: 15%;
 }
-header{
+header {
     text-align: center;
     font-size: 1rem;
     height: 15%;
     margin-bottom: 0.5rem;
 }
-.first-line{
+.first-line {
     text-align: center;
     font-size: 0.85rem;
     height: 15%;
@@ -49,49 +49,48 @@ header{
     margin: auto;
     border-radius: 0.35rem;
 }
-.flex{
+.flex {
     display: flex;
     flex-direction: column;
     justify-content: center !important;
     height: 30%;
     margin-top: 1rem;
 }
- input{
+ input {
     margin-left: 2.5rem;
     height: 101%;
     width: 80%;
     text-align: center;
     padding: 0.5rem;
-    
-
 }
-input[placeholder="کد پرسنلی"]{
+input[placeholder="کد پرسنلی"] {
     border-top-left-radius: 0.5rem;
-    border-top-right-radius:0.5rem ;
+    border-top-right-radius: 0.5rem ;
 }
-input[placeholder="رمز عبور"]{
+input[placeholder="رمز عبور"] {
     border-bottom-left-radius: 0.5rem;
-    border-bottom-right-radius:0.5rem ;
+    border-bottom-right-radius: 0.5rem ;
 }
-label .code{
+label .code {
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 1.5rem;
 }
-label .password{
+label .password {
     border-bottom-left-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }
-button{
+button {
     height: 15%;
     width: 80%;
     color: white;
     background-color: darkblue;
     padding: 0.35rem;
-border-radius: 0.5rem;
-margin-top: 1.5rem;
-margin-left: 2.55rem;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    margin-left: 2.55rem;
 }
-p{width: 80%;
+p { 
+    width: 80%;
     height: 15%;
     text-align: center;
     margin-top: 1.5rem;
@@ -99,77 +98,55 @@ p{width: 80%;
     font-size: 0.75rem;
 }
 
-@media(max-width:1200px){
-    .all{
+@media(max-width: 1200px) {
+    .all {
         width: 40%;
     }
-    .all .image img{
+    .all .image img {
         margin-left: 12.5rem;
-       
-        }
-        .first-line{
-           margin-left: 2.5rem;
-        }
-
-        
-}
-@media(max-width:1100px){
-    .all .image img{
-        margin-left: 11.5rem;
-       
-        }
-}
-@media(max-width:1000px){
-    .all .image img{
-        margin-left: 10.5rem;
-       
-        }
-}
-@media(max-width:900px)
-{
-
-    .all .image img{
-    
-    margin-left: 9.85rem;
-    
     }
-    
-    
+    .first-line {
+        margin-left: 2.5rem;
+    }        
 }
-@media(max-width:800px){
-    .all{
+@media(max-width: 1100px) {
+    .all .image img {
+        margin-left: 11.5rem;
+    }
+}
+@media(max-width: 1000px) {
+    .all .image img {
+        margin-left: 10.5rem;
+    }
+}
+@media(max-width: 900px) {
+    .all .image img {
+        margin-left: 9.85rem;
+    }
+}
+@media(max-width: 800px) {
+    .all {
         width: 50%;
     }
-    .all .image img{
-    
+    .all .image img {
         margin-left: 10rem;
-        
-        }
+    }
 }
-@media(max-width:700px)
-{
-    .all .image img{
-    
+@media(max-width: 700px) {
+    .all .image img {
         margin-left: 9rem;
-        
-        }
+    }
 }
-@media(max-width:600px)
-{
-    .all .image img{
-    
+@media(max-width: 600px){
+    .all .image img {
         margin-left: 5rem;
-        
-        }
+    }
 }
-@media(max-width:500px)
-{
-    .all .image img{
-    
+@media(max-width:500px) {
+    .all .image img {
         margin-left: 7.5rem;
-        
-        }
-        header{
-            margin-left: 2rem;
-        }       
+    }
+    header {
+         margin-left: 2rem;
+    }       
 }
