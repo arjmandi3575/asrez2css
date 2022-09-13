@@ -1,0 +1,262 @@
+* {
+    margin: 0;
+    font-family: 'iranyekan' , 'iranyekan_numbers'; 
+    padding: 0;
+    direction: rtl;
+}
+body {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "iranyekan" ;
+    src: url("fonts/iranyekan/eot/iranyekanwebregular.eot?#") ,
+    url("fonts/iranyekan/ttf/iranyekanwebregular.ttf") format('truetype'),
+    url("fonts/iranyekan/woff/iranyekanwebregular.woff") format('woff'),
+    url("fonts/iranyekan/svg/iranyekanwebregular.svg") format('svg');
+}
+@font-face {
+    font-family: "iranyekan_numbers" ;
+    src: url("fonts/iranyekan_numbers/eot/iranyekanwebregular(fanum).eot?#") ,
+    url("fonts/iranyekan_numbers/ttf/iranyekanwebregular(fanum).ttf") format('truetype'),
+    url("fonts/iranyekan_numbers/woff/iranyekanwebregular(fanum).woff") format('woff'),
+    url("fonts/iranyekan_numbers/svg/iranyekanwebregular(fanum).svg") format('svg');
+}
+.all { 
+    background: #334d50; 
+    background: -webkit-linear-gradient(to right, #334d50, #cbcaa5); 
+    background: linear-gradient(to right, #334d50, #cbcaa5);
+}
+.top {
+    text-align: center;
+    background-color: #f5f5f5;
+    width: 100%;
+}
+.top img {
+    margin-top: 2rem;
+    width: 5%;
+    height: 5%;
+} 
+.top header {   
+    font-size: 2.5rem;
+    direction: rtl;
+}
+.top .first-line {
+    direction: rtl;
+    font-size: 0.85rem;
+}
+.top a {
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    display: block;
+    direction: rtl;
+    margin-top: 2rem;
+    font-size: 0.75rem;
+    color: white;
+    background-color: darkblue;
+    padding: 0.5rem .5rem;
+}
+.key {
+    margin-right: 0.3rem;
+}
+.bottom {
+    width: 90%;
+    margin: 2rem 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bottom header {
+    direction: rtl;
+    margin-bottom: 1rem;
+}
+label {
+    direction: rtl;
+}
+input {
+    margin-top: 0.5rem;
+    height: 1.5rem;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Document {
+    margin-left: 1rem;
+}
+.bottom .Document input {
+   direction: ltr;
+    width: 25rem;
+    padding-left: 00.2rem;
+}
+.bottom .date input {
+   direction: ltr;
+    width: 25rem;
+    padding-left: 00.2rem;
+}
+.accounting {
+    margin-top: 1.5rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.accounting input {
+width: 17rem;
+}
+.close {
+    text-align: center;
+    font-size: 1rem;
+    background-color: #f7d311c9;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.75rem;
+    width: 2rem;
+    margin: 1rem auto;
+}
+.add {
+    text-align: center;
+    font-size: 1rem;
+    background-color: #f7d311c9;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.75rem;
+    width: 2rem;
+    margin: 1rem auto;
+}
+.Explain {
+    margin-left: 1rem;
+} 
+.debtor {
+    margin-left: 1rem;
+}
+.text {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    direction: rtl;
+    line-height: 2rem;
+} 
+textarea {
+    margin-bottom: 1rem;
+    direction: rtl;
+    padding-right: 0.5rem;
+}
+.file {
+    direction: rtl;
+    border-radius: 0.15rem;
+    background-color: white;
+}
+p {
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 1.5rem;
+} 
+@media(max-width: 950px) {
+    .top .first-line {
+        font-size: 0.75rem;
+    }
+    .top a {
+        margin-bottom: 1.5rem;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        display: block;
+        direction: rtl;
+        margin-top: 2rem;
+        font-size: 0.65rem;
+        color: white;
+        background-color: darkblue;
+        padding: 0.25rem 0.25rem;
+    }
+    .key {
+        margin-right: 0.23rem;
+    }
+    input {
+        height: 1rem;
+    }
+    .bottom {
+        width: 80%;
+    }
+    .Document {
+        margin-left: 0.5rem;
+    }
+    .bottom .Document input { 
+        direction: ltr;
+        width: 15rem;
+        padding-left: 00.2rem;
+    }
+    .bottom .date input{
+        direction: ltr;
+        width: 15rem;
+        padding-left: 00.2rem;
+    }
+    .accounting input{
+        width: 10rem;
+    }
+    .Explain {
+        margin-left: 0.5rem ;
+    } 
+    .debtor {
+        margin-left: 0.5rem ;
+    }
+    .text {
+        font-size: 0.81rem;   
+        line-height: 1.2rem;
+    } 
+    .file {
+        border-radius: 1px solid;
+    }
+    p {
+        text-align: center;
+        font-size: 0.85rem;
+        margin-top: 1.5rem;
+    } 
+}
+@media(max-width: 650px) {
+    .top .first-line {
+        font-size: 0.7rem;
+    }
+    .top a {
+        font-size: 0.5rem;
+        padding: 0.25rem 0.25rem;
+    }
+    .key {
+        margin-right: 0.13rem;
+    }
+    .bottom {
+        width: 80%;
+    }
+    .Document {
+        margin-left: 0.35rem;
+    }
+    .bottom .Document input {
+        width: 10rem;
+    }
+    .bottom .date input {
+        width: 10rem;
+    }
+    .accounting input {
+    width: 7rem;
+    }
+    .top img {
+        width: 10%;
+        height: 10%;
+    }
+}
+@media(max-width:500px) {
+    .bottom {
+        width: 60%;
+    }
+    .Document {
+        margin-left: 0.35rem;
+    }
+    .bottom .Document input {
+        width: 7rem;
+    }
+    .bottom .date input {
+        width: 7rem;
+    }
+    .accounting input {
+    width: 4rem;
+    }
+}
